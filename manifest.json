@@ -3,7 +3,7 @@
   "name": "Weather: Do I need an umbrella?",
   "icons": [
     {
-      "src": "/images/icon.png",
+      "src": "/Server/images/icon.png",
       "type": "image/png",
       "sizes": "512x512"
     }
