@@ -3,7 +3,7 @@ self.addEventListener('install', e => {
 e.waitUntil(
     caches.open('airhorner').then(cache => {
         return cache.addAll([
-            '/Service.html'
+            '/Server/Service.html'
         ])
             .then(() => self.skipWaiting());
     })
